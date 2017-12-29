@@ -1,0 +1,17 @@
+{
+  "env": {
+    "jest": true
+  },
+  "globals": {},
+  "rules": {
+    "import/extensions": [
+      "error",
+      "always",
+      {
+        "js": "never",
+        "ts": "never",
+        "vue": "never"
+      }
+    ]
+  }
+}
